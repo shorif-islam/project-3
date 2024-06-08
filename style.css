@@ -1,0 +1,33 @@
+/* Importing the 'Plus Jakarta Sans' font from Google Fonts with varying weights for both normal and italic styles */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Applying a universal selector to reset margin, padding, and box-sizing for all elements to ensure consistent styling across browsers */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting the default font family and background color for the body of the document */
+body{
+    font-family: "Plus Jakarta Sans", sans-serif; /* Using the imported font */
+    background-color: #F9F0F0; /* Light pink background color */
+}
+
+/* Defining a class for large text, typically used for headers, with specific font size, weight, and line height */
+.large-text{
+    font-size: 64px; /* Large font size */
+    font-weight: 700; /* Bold weight */
+    line-height: 78px; /* Line height for better readability */
+}
+
+/* Customizing the appearance of the scrollbar for webkit-based browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar{
+    width: 5px; /* Width of the scrollbar */
+    height: 5px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+/* Styling the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb{
+    background: #F44335; /* Red color for the scrollbar thumb */
+}
